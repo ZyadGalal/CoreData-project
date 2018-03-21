@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3243F8CB2062804800BF16B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243F8CA2062804800BF16B1 /* AppDelegate.swift */; };
+		3243F8CD2062804800BF16B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243F8CC2062804800BF16B1 /* ViewController.swift */; };
+		3243F8D02062804800BF16B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3243F8CE2062804800BF16B1 /* Main.storyboard */; };
+		3243F8D32062804800BF16B1 /* el_desoky.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3243F8D12062804800BF16B1 /* el_desoky.xcdatamodeld */; };
+		3243F8D52062804800BF16B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3243F8D42062804800BF16B1 /* Assets.xcassets */; };
+		3243F8D82062804800BF16B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3243F8D62062804800BF16B1 /* LaunchScreen.storyboard */; };
+		3243F8E02062815100BF16B1 /* CoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243F8DF2062815100BF16B1 /* CoreDataHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3243F8C72062804800BF16B1 /* el desoky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "el desoky.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3243F8CA2062804800BF16B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3243F8CC2062804800BF16B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3243F8CF2062804800BF16B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3243F8D22062804800BF16B1 /* el_desoky.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = el_desoky.xcdatamodel; sourceTree = "<group>"; };
+		3243F8D42062804800BF16B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3243F8D72062804800BF16B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3243F8D92062804800BF16B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3243F8DF2062815100BF16B1 /* CoreDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3243F8C42062804800BF16B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3243F8BE2062804700BF16B1 = {
+			isa = PBXGroup;
+			children = (
+				3243F8C92062804800BF16B1 /* el desoky */,
+				3243F8C82062804800BF16B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3243F8C82062804800BF16B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3243F8C72062804800BF16B1 /* el desoky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3243F8C92062804800BF16B1 /* el desoky */ = {
+			isa = PBXGroup;
+			children = (
+				3243F8CA2062804800BF16B1 /* AppDelegate.swift */,
+				3243F8CC2062804800BF16B1 /* ViewController.swift */,
+				3243F8CE2062804800BF16B1 /* Main.storyboard */,
+				3243F8D42062804800BF16B1 /* Assets.xcassets */,
+				3243F8D62062804800BF16B1 /* LaunchScreen.storyboard */,
+				3243F8D92062804800BF16B1 /* Info.plist */,
+				3243F8D12062804800BF16B1 /* el_desoky.xcdatamodeld */,
+				3243F8DF2062815100BF16B1 /* CoreDataHandler.swift */,
+			);
+			path = "el desoky";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3243F8C62062804800BF16B1 /* el desoky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3243F8DC2062804800BF16B1 /* Build configuration list for PBXNativeTarget "el desoky" */;
+			buildPhases = (
+				3243F8C32062804800BF16B1 /* Sources */,
+				3243F8C42062804800BF16B1 /* Frameworks */,
+				3243F8C52062804800BF16B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "el desoky";
+			productName = "el desoky";
+			productReference = 3243F8C72062804800BF16B1 /* el desoky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3243F8BF2062804700BF16B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Zyad Galal";
+				TargetAttributes = {
+					3243F8C62062804800BF16B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3243F8C22062804700BF16B1 /* Build configuration list for PBXProject "el desoky" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3243F8BE2062804700BF16B1;
+			productRefGroup = 3243F8C82062804800BF16B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3243F8C62062804800BF16B1 /* el desoky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3243F8C52062804800BF16B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3243F8D82062804800BF16B1 /* LaunchScreen.storyboard in Resources */,
+				3243F8D52062804800BF16B1 /* Assets.xcassets in Resources */,
+				3243F8D02062804800BF16B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3243F8C32062804800BF16B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3243F8CD2062804800BF16B1 /* ViewController.swift in Sources */,
+				3243F8E02062815100BF16B1 /* CoreDataHandler.swift in Sources */,
+				3243F8D32062804800BF16B1 /* el_desoky.xcdatamodeld in Sources */,
+				3243F8CB2062804800BF16B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3243F8CE2062804800BF16B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3243F8CF2062804800BF16B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3243F8D62062804800BF16B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3243F8D72062804800BF16B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3243F8DA2062804800BF16B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3243F8DB2062804800BF16B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3243F8DD2062804800BF16B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
+				INFOPLIST_FILE = "el desoky/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zyadgalal.el-desoky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3243F8DE2062804800BF16B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
+				INFOPLIST_FILE = "el desoky/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zyadgalal.el-desoky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3243F8C22062804700BF16B1 /* Build configuration list for PBXProject "el desoky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3243F8DA2062804800BF16B1 /* Debug */,
+				3243F8DB2062804800BF16B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3243F8DC2062804800BF16B1 /* Build configuration list for PBXNativeTarget "el desoky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3243F8DD2062804800BF16B1 /* Debug */,
+				3243F8DE2062804800BF16B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3243F8D12062804800BF16B1 /* el_desoky.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3243F8D22062804800BF16B1 /* el_desoky.xcdatamodel */,
+			);
+			currentVersion = 3243F8D22062804800BF16B1 /* el_desoky.xcdatamodel */;
+			path = el_desoky.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3243F8BF2062804700BF16B1 /* Project object */;
+}
